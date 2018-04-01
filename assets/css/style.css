@@ -13,6 +13,11 @@
       color: white;
       padding: 15px;
     }
+
+    h1 {
+      color: blue;
+      font-size: 40px;
+  }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
@@ -22,3 +27,10 @@
       }
       .row.content {height: auto;} 
     }
+
+    .hide {
+      display: none;
+    }
+    .menu{
+      margin:20px;
+  }
